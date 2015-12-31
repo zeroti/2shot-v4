@@ -1,0 +1,128 @@
+/* 通常時のbodyタグのスタイル（config.cgiで設定したID:normal） */
+#normal  {
+	background-color: #000;
+	color:#fff;	
+	font-size:10pt;
+}
+
+/* 警告時・エラー発生時のbodyタグのスタイル（config.cgiで設定したID:alert） */
+#alert {
+	background-color:#ff0000;
+	color:#000;
+	font-size:16pt;
+}
+
+/* テーブル標準 */
+table {
+	color:#fff;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+
+/*  項目名のスタイル　*/
+th {
+	text-align:center;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+/* 項目値のスタイル　*/
+td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+	text-align:left;
+}
+
+/* <<< 部屋の状態一覧画面 >>> */
+
+/* 部屋リストのテーブル */
+table.list_table {
+	width:80%;
+}
+
+/* 部屋リスト 項目名のスタイル　*/
+.list_table th {
+
+}
+
+/* 部屋リスト 項目値のスタイル　*/
+.list_table td {
+
+}
+
+/* 部屋名カラムの幅などの個別スタイル */
+.list_room_name {
+	width:15%;
+}
+
+/* 部屋の状態カラムの幅などの個別スタイル */
+.list_room_status{
+	width:10%;
+}
+
+/* 部屋のユーザー性別カラムの幅などの個別スタイル */
+.list_user_sex {
+	width:5%;
+}
+
+/* 部屋のユーザー名カラムの幅などの個別スタイル */
+.list_user_name {
+	width:20%;
+}
+
+/* 部屋のユーザープロフィール　カラムの幅などの個別スタイル */
+.list_user_profile {
+	width:50%;
+}
+
+/* <<< チャット発言画面 >>> */
+
+/* 部屋名 +/
+.room_name {
+	color:darkgreen;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+/* 部屋の状態　 +/
+.room_status {
+	text-align:left;
+	font-size:9pt;
+	font-height:bold;
+}
+
+/* ユーザー名 +/
+.user_name {
+	font-size:14pt;
+	color:blue;
+}
+
+/*　待機時のアナウンスメッセージ欄　*/
+.waiting_msg  {
+	text-align:left;
+	font-size:10pt;
+	color:red;
+}
+
+/* エラーメッセージの文字 */
+.error {
+	color:red;
+	font-size:20pt;
+}
+
+/* 満室時の色ほか */
+.room_lock {
+	color:red;
+}
+
+/* チャット画面でのオーナー側の情報表示 入室お知らせボタンの説明など　 */
+.info {
+	color:orange;
+	font-size:10pt;
+}
+
